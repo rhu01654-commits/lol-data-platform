@@ -1,0 +1,29 @@
+# Secrets
+.env
+
+# Python virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Generated data
+data/raw/
+data/staging/
+data/state/
+
+# Local Hive / Derby metadata
+metastore_db/
+derby.log
+
+# Logs and temporary files
+*.log
+*.bak
+*.tmp
+*.lck
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
