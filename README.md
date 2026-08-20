@@ -23,6 +23,20 @@ Key engineering features include:
 ## Architecture
 ![League of Legends Data Platform Architecture](docs/images/architecture.png)
 
+## Screenshots
+
+### DolphinScheduler Workflow
+
+![DolphinScheduler Workflow](docs/images/dolphinscheduler-dag.png)
+
+The eight-task workflow orchestrates incremental ingestion, warehouse transformation, data quality validation, and MySQL serving-layer publication.
+
+### Superset Champion Analytics Dashboard
+
+![Superset Champion Analytics Dashboard](docs/images/superset-dashboard.png)
+
+The dashboard is backed by the MySQL serving layer and supports interactive filtering by queue, patch version, and date.
+
 
 ```text
 Riot Games API
