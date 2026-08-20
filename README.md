@@ -21,6 +21,8 @@ Key engineering features include:
 ---
 
 ## Architecture
+![League of Legends Data Platform Architecture](docs/images/architecture.png)
+
 
 ```text
 Riot Games API
